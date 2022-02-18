@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-current_path = input("Where are the file ?\n")
+current_path = input("Where are the files ?\n")
 
 current_path = Path.cwd() / "images"
 
